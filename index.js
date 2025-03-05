@@ -13,7 +13,7 @@ import adminRoutes from "./src/routes/admin.routes.js";
 const app = express();
 
 // Middleware
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({ origin: "https://charming-frangollo-addf9b.netlify.app/", credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
